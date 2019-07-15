@@ -114,4 +114,43 @@ a {	color: inherit;	text-decoration: none;}
 .main-header .right-pane .bg-image img { height: 250px; width: 250px; box-shadow: 25px 10px rgba(0,0,0,0.3); }
 
 
+/* Content - Section */
+.section-content { padding: 25px 0 25px 0; }
+.section-content .button { margin: 0; padding: 20px 0; }
+
+/* Content - Section One */
+.section-one { height: auto; }
+.section-one .top-pane { width: 100%; text-align: center; padding: 0px 0 150px 0; }
+.section-one .top-pane h2 { font-size: 32px; }
+.section-one .bottom-pane { top: 150px; right: 10%; }
+
+/* Content - Section Two */
+.section-two { background-position: center -100px !important; text-align: center; }
+.section-two .top-pane { padding: 200px 0 75px; }
+.section-two .top-pane h2 { font-size: 32px; }
+
+/* Content - Section Three */
+.section-three .top-pane h2 { font-size: 32px; padding: 10px 10px; }
+.section-three .cards .card { width: calc(100% - 80px); }
+.section-three .cards .card#first, .section-three .cards .card#second, .section-three .cards .card#third { margin: 40px 10px; }
+
+@media screen and (max-width: 500px) {
+
+/* Menu Bar */
+.menu-bar { overflow-x: scroll; overflow-y: hidden; width: 100%; }
+.logo-pane { display: inline-block; position: relative; vertical-align: top; margin: 0 -4px 0 0; }
+.menu-bar .nav-menu { position: relative; vertical-align: top; display: inline-block; width: calc(100% - 75px); }
+.menu-bar .nav-menu .menu { height: 75px; white-space: nowrap; }
+
+/* Content - Section Content */
+.section-content h2 { padding: 0 20px !important; }
+
+/* Content - Section Two */
+.section-two { background-size: cover !important; background-position: center center !important; }
+.section-two .top-pane { padding: 75px 0 75px; }
+
+/* Footer */
+.main-footer .bottom-pane .pane { display: block; text-align: center; width: 100%; margin: 0; }
+.main-footer .bottom-pane .pane ul { text-align: center; }
+
 }
