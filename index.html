@@ -1,101 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Meta Tags-->
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<head>
+	<!-- Meta Tags-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="shortcut icon" type="image/png" href="sprites/favicon.ico"/>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut icon" type="image/png" href="sprites/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- JavaScripts -->
-<script src="https://kit.fontawesome.com/614c79ec05.js"></script>
+	<!-- JavaScripts -->
+	<script src="https://kit.fontawesome.com/614c79ec05.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/togglemenu.js"></script>
+</head>
 
 
 <!-- General -->
 <title>Welcome to my Page</title>
 <body>
 
-<div class="fixed menu-bar">
-	<div class="container">
-		<section class="logo-pane">
-			<div class="logo-container">
-				<a class="main-logo" href="#">
+<div class="main-navigation">
+	<nav class="navbar active">
+		<div class="container">
+			<div class="logo">
+				<a href="/">
 					<img src="sprites/cd_logo_2.png">
 				</a>
 			</div>
-		</section>
-		<section class="nav-menu">
-			<ul class="menu">
-				<li>
-					<a href="#">
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a href="#about">
-						<span>About Me</span>
-					</a>
-				</li>
-				<li>
-					<a href="#project">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li>
-					<a href="#contact">
-						<span>Contact</span>
-					</a>
-				</li>
-			</ul>
-		</section>
-	</div>
+			<div class="links">
+				<ul>
+					<li>
+						<a href="index.html">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="activities.html">
+							Activities
+						</a>
+					</li>
+					<li>
+						<a href="reflection.html">
+							Reflection
+						</a>
+					</li>
+					<li>
+						<a href="projects.html">
+							Projects
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </div>
 
 <header class="main-header">
-	<div class="container">
-		<div class="main-content">
-			<div class="right-pane">
-				<div class="bg-image">
-					<img src="sprites/me.jpg">
-				</div>
+	<div class="header">
+		<div class="container">
+			<div class="background">
+				<div class="overlay"></div>
 			</div>
-			<div class="left-pane">
-				<div class="lp-content">
-					<h4 class="lp-name">
-						Christian Dinglasan
-					</h4>
-					<h2 class="lp-intro">
-						Hi! I'm Christian, a student of <span>Asia Pacific College</span>
-					</h2>
-					<div class="lp-links">
-						<ul class="menu">
-							<li>
-								<a class="lp-link" href="https://www.facebook.com/christian.m.dinglasan" target="_blank">
-									<span>Facebook</span>
-								</a>
-							</li>
-							<li>
-								<a class="lp-link" href="https://www.twitter.com/tiandinglasan" target="_blank">
-									<span>Twitter</span>
-								</a>
-							</li>
-							<li>
-								<a class="lp-link" href="https://www.instagram.com/tigiding" target="_blank">
-									<span>Instagram</span>
-								</a>
-							</li>
-						</ul>
-					</div>
+			<div class="main-content">
+				<h1 class="display-2 font-weigh-bolder">Hi, I am <strong>Christian</strong>.</h1>
+				<h2 class="display-5">Student at Asia Pacific College</h2>
+				<div class="soc-links">
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/christian.m.dinglasan" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.twitter.com/tiandinglasan" target="_blank">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/tigiding" target="_blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </header>
+
+
 
 <section class="section-content section-one" id="about">
 	<div class="bottom-pane">
@@ -112,7 +110,7 @@
 	</div>
 </section>
 
-<section class="section-content section-two" style="background: url(sprites/maker_faire.jpg); background-size: 135% auto; background-position: right -200px;">
+<section class="section-content section-two">
 	<div class="container">
 		<div class="top-pane">
 			<div class="content">
